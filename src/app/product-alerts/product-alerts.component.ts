@@ -11,9 +11,9 @@ export class ProductAlertsComponent implements OnInit {
   //@Input() decorator: the value comes from component's PARENT
   @Input() product;
   @Output() notify = new EventEmitter();
-  // constructor() { }
+  constructor() { }
 
-  // ngOnInit() {
-  // }
+  ngOnInit() {
+  }
 
 }
